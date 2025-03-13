@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 # API Endpoint
-API_URL = "http://127.0.0.1:8000/recommend/"  # Update this when deploying
+API_URL = "https://kmeans-fullstack.onrender.com"  # Update this when deploying
 
 # Page Configuration
 st.set_page_config(page_title="Doctor Recommendation System", page_icon="🩺", layout="centered")
